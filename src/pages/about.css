@@ -1,0 +1,185 @@
+:root {
+    --red: #F24150;
+    --pinky: #F26DB6;
+    --pinkdust: #c69e91;
+    --blue: #1C58A6;
+    --mint: #04BF68;
+    --orange: #F29F05;
+    --offwhite: #ece7e1;
+    --black: #000000;
+    
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "bilo", sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    nav {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 33px 9%;
+        background: transparent;
+    }
+    
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .logo:hover {
+        opacity: 50%;
+        transition: 0.7s;
+        transform: rotate(35deg);
+    }
+    
+    .navlist {
+        display: flex;
+    }
+    
+    .navlist a {
+        color: var(--blue);
+        margin-left: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: all .55s ease;
+    }
+    
+    .navlist a:hover {
+        border-bottom: 2px solid var(--blue);
+    }
+    
+    #menu-icon {
+        color: var(--blue);
+        font-size: 35px;
+        z-index: 10001;
+        cursor: pointer;
+        display: none;
+    }
+    
+
+    body {
+        background: var(--offwhite);    
+    }
+    
+    section {
+        padding: 0 19%;
+        
+     }
+
+    .hero {
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 2rem;
+        background-color: red;
+    }
+    
+    .hero-text h5 {
+        font-size: 40px;
+        font-weight: 800;
+        font-style: italic;
+        color: var(--mint);
+        margin-bottom: 40px;
+    }
+    
+    .hero-text h1 {
+        font-family: "bilo", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 150px;
+        line-height: 1;
+        color: var(--black);
+        margin: 0 0 45px;
+    }
+    
+    .hero-text p {
+        font-size: 20px;
+        font-weight: 800;
+        font-style: normal;
+        color: var(--black);
+        margin-bottom: 10px;
+        background-color: blue;
+    }
+    
+    .hero-img img {
+        width: 550px;
+        height: auto;
+        border-radius: 1rem;
+    }
+    
+    .scrolldown {
+        background-color: yellow;
+        display: inline-block;
+        align-items: center;
+        margin-top: -400px;
+    }
+    .propertyme-text h5{
+        font-size: 40px;
+        font-weight: 800;
+        font-style: italic;
+        color: var(--blue);
+        margin-bottom: 40px;
+    }
+    
+    .propertyme-text p{
+        font-size: 20px;
+        font-weight: 800;
+        font-style: normal;
+        color: var(--black);
+        margin-bottom: 10px;
+    }
+    
+    .propertyme{
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .hobby-text h5{
+        font-size: 40px;
+        font-weight: 800;
+        font-style: italic;
+        color: var(--blue);
+        margin-bottom: 40px;
+    }
+    
+    .hobby-text p{
+        font-size: 20px;
+        font-weight: 800;
+        font-style: normal;
+        color: var(--black);
+        margin-bottom: 10px;
+    }
+    
+    .hobbies{
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 2rem;
+    }
+    
