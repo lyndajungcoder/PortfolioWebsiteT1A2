@@ -1,0 +1,266 @@
+
+:root {
+    --red: #F24150;
+    --pinky: #F26DB6;
+    --pinkdust: #c69e91;
+    --blue: #1C58A6;
+    --mint: #00c66a;
+    --orange: #F29F05;
+    --offwhite: #F2F2F2;
+    --black: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "bilo", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background-color: var(--offwhite);
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo:hover {
+    opacity: 50%;
+    transition: 0.7s;
+    transform: rotate(35deg);
+}
+
+body {
+    background: var(--offwhite);
+
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: var(--blue);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid var(--blue);
+}
+
+#menu-icon {
+    color: var(--blue);
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+
+.icons i{
+    display: block;
+    margin: 26px 0;
+    font-size: 24px;
+    color: var(--black);
+    transition: all .50s ease;
+}
+
+.icons i:hover{
+    color: var(--red);
+    transform: translateY(-5px);
+}
+
+/* styling of the body */
+section  {
+    margin: 100px 0 250px 0;
+    padding: 0 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Home section */
+.home {
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.home h1 {
+    font-size: 4.1em;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.image > img {
+    height: 70dvh;
+    border-radius: 1em;
+    max-width: 100dvw;
+ }
+
+.skill-container {
+    height: 20vh;
+    width: 50rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sample-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5em;
+
+}
+
+.sample-cards .card {
+    background: var(--mint);
+    height: 100%;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.educationlist{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.educationlist p4 {
+    display: block;
+}
+
+.skilllists > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-btn a {
+    color: var(--offwhite);
+    background: var(--pinky);
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;    
+}
+
+.resume-btn a:hover{
+    background: transparent;
+    border: 1px solid var(--pinky);
+    transform: translateX(8px);
+    color: var(--blue);
+}
+
+/* responsive view */
+@media (max-width: 1535px){
+    header{
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1460px){
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1195px){
+    section{
+        padding: 0 3%;
+        transition: .2s;
+    }
+  
+    .icons{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 680px){
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 35vh;
+        background: var(--pinkdust);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 20px;
+        transition: all .65s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 10px 0;
+        margin-left: 0;
+    }
+    .navlist.open {
+        right: 0;
+        
+    }
+    .home .skill-container {
+        display: absolute;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .home {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+   
+    nav {
+        background: transparent;
+    }
+}
