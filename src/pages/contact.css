@@ -136,6 +136,7 @@ section {
     width: 100%;
     padding: 10px;
     border-radius: 0.5rem;
+    border-color: var(--mint);
     font-size: 15px;
 }
 
@@ -164,7 +165,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+
 }
 
 /* responsive view */
