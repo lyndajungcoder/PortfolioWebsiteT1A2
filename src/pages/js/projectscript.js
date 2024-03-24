@@ -13,7 +13,10 @@ const sr = ScrollReveal ({
 	reset: true
 });
 
-ScrollReveal().reveal("main", {
+sr.reveal('.section',{delay:500, origin:'left'});
+sr.reveal('.heading1',{delay:500, origin:'left'});
+
+ScrollReveal().reveal(".projectcards", {
 	duration: 5000,
 	move: 0
-  });
+});
