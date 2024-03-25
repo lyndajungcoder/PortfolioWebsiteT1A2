@@ -100,6 +100,8 @@ section  {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 /* Home section */
@@ -108,18 +110,13 @@ section  {
     min-height: 100vh;
     margin: 100px 0 100px 0;
     padding: 0 20px;
+    width: 100%;
 }
 
 .home h1 {
     font-size: 150px;
     font-weight: 800;
 }
-
-.image > img {
-    height: 70dvh;
-    border-radius: 1em;
-    max-width: 100dvw;
- }
 
 .skill-container {
     height: 20vh;
@@ -145,7 +142,7 @@ section  {
 
 .sample-cards .card {
     background: var(--mint);
-    height: 80%;
+    height: 75%;
     width: 25vw;
     display: flex;
     justify-content: center;
@@ -185,6 +182,7 @@ section  {
     border-radius: 30px;
     text-transform: uppercase;
     transition: all .55s ease;    
+
 }
 
 .resume-btn a:hover{
@@ -214,15 +212,20 @@ section  {
 }
 
 @media (max-width: 1195px){
-    section{
+    main {
         padding: 0 3%;
         transition: .2s;
+       
     }
   
     .icons{
         display: none;
     }
-    
+
+    nav {
+        background: transparent;
+    }
+
 }
 
 @media (max-width: 680px){
@@ -256,16 +259,19 @@ section  {
         display: absolute;
         align-items: center;
         flex-direction: column;
-        max-width: 100%;
+    
     }
     .home {
         display: flex;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 100%;
     }
     nav {
         background: transparent;
     }
+
+.sample-cards .card {
+    font-size: 20px;
+}
 }
