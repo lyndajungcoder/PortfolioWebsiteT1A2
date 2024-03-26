@@ -1,0 +1,107 @@
+:root {
+    --red: #F24150;
+    --pinky: #F26DB6;
+    --pinkdust: #c69e91;
+    --blue: #1C58A6;
+    --mint: #04BF68;
+    --orange: #F29F05;
+    --offwhite: #F2F2F2;
+    --black: #000000;  
+}
+   
+* {
+    box-sizing: border-box;
+    font-family: "bilo", sans-serif;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background-color: var(--offwhite);
+}
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.logo:hover {
+    opacity: 50%;
+    transition: 0.7s;
+    transform: rotate(35deg);
+}
+
+body {
+    background: var(--offwhite);
+
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: var(--blue);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid var(--blue);
+}
+
+#menu-icon {
+    color: var(--blue);
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+main {
+    min-height: 85dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1C58A6;
+
+}
+
+main .h1{
+    text-align: center;
+}
+
+.image {
+    max-height: 70dvh;
+	transition: 1s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1em;	
+	margin: 2em;
+	padding: 1em;
+    background-color: black;
+}
+
+.image > img {
+    height: 65dvh;
+	border-radius: 2em;
+}

@@ -259,7 +259,12 @@ main {
 
     .projectcards img {
         height: 250px;
-        width: 500px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
