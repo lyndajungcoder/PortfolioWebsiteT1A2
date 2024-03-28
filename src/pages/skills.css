@@ -13,7 +13,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: "bilo", sans-serif;
     list-style: none;
     text-decoration: none;
@@ -101,14 +101,12 @@ section  {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
 }
 
-/* Home section */
 .home {
     flex-direction: column;
     min-height: 100vh;
-    margin: 100px 0 100px 0;
+    /* margin: 100px 0 100px 0; */
     padding: 0 20px;
     width: 100%;
 }
@@ -125,9 +123,6 @@ section  {
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.skill-container p{
     font-size: 20px;
     font-weight: 400;
 }
@@ -137,14 +132,14 @@ section  {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5em;
     margin-top: 80px;
+    background-color: #000000;
 
 }
 
 .sample-cards .card {
     background: var(--mint);
     height: 75%;
-    width: 25vw;
-    display: flex;
+    width: 25vw;  
     justify-content: center;
     align-items: center;
     border-radius: 5px;
@@ -153,22 +148,24 @@ section  {
 
 }
 
-.educationlist{
-    position: relative;
+.skilllists {
+    max-width: fit-content;
     display: block;
     justify-content: center;
     align-items: center;
-
+    background-color: #F2F2F2;
 }
 
-.educationlist p4 {
+.educationlist {
+    max-width: fit-content;
     display: block;
-}
-
-.skilllists > h2 {
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+}
+
+.educationlist li {
+    
 }
 
 .resume-btn a {
