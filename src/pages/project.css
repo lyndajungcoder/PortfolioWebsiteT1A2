@@ -99,7 +99,8 @@ body {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    margin-top: 200px;        
+    margin-top: 200px;
+    margin-left: 10%;        
 }
 
 .tophead {
@@ -172,6 +173,11 @@ main {
         transition: .2s;
     }
 
+    .projectcards img {
+        height: auto;
+        width: 100%;
+    }    
+
 }
 
 @media (max-width: 1195px){
@@ -215,11 +221,12 @@ main {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: fit-content;
     }
 
     .projectcards img {
-        height: 250px;
-        width: 500px;
+        height: auto;
+        width: 100%;
         
     }
 
@@ -261,7 +268,7 @@ main {
     }
 
     .projectcards img { 
-        width: 300dvw;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -272,7 +279,6 @@ main {
     .projectcards p {
         font-size: 2vw;
     }
-
     .tophead {
         font-size: 10vw;
         padding-left: 50px;

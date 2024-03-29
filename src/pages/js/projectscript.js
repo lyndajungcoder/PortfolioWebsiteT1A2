@@ -15,6 +15,8 @@ const sr = ScrollReveal ({
 
 sr.reveal('.section',{delay:500, origin:'left'});
 sr.reveal('.heading1',{delay:500, origin:'left'});
+sr.reveal('.portfolioimage',{delay:400, origin:'left'});
+sr.reveal('.portfolioimage .text',{delay:600, origin:'bottom'});
 
 ScrollReveal().reveal(".projectcards", {
 	duration: 5000,
