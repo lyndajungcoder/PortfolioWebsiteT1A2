@@ -102,14 +102,13 @@ body {
     margin-top: 200px;        
 }
 
-.heading1 {
-    height: 20%;
+.tophead {
     width: 100dvw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 300px 0 250px 0;
-    padding: 0 19%;
+    /* margin: 300px 0 250px 0; */
+    /* padding: 0 19%; */
     font-size: 100px;
     font-weight: 800;
 }
@@ -223,6 +222,10 @@ main {
         width: 500px;
         
     }
+
+    .tophead {
+        font-size: 5vw;
+    }
 }
 
 @media (max-width: 680px){
@@ -257,14 +260,22 @@ main {
         background: transparent;
     }
 
-    .projectcards img {
-        height: 250px;
-        width: 300px;
+    .projectcards img { 
+        width: 300dvw;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .projectcards p {
+        font-size: 2vw;
+    }
+
+    .tophead {
+        font-size: 10vw;
+        padding-left: 50px;
     }
 }
 

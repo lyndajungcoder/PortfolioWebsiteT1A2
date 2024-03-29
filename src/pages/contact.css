@@ -227,9 +227,11 @@ section {
         right: 0;
         
     }
-    .contact{
+    .contact {
         display: flex;
         flex-direction: column;
+        flex-direction: wrap;
+        width: fit-content;
     }
     
 }
@@ -266,12 +268,14 @@ section {
         background: transparent;
     }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-}
+    .contact {
+        display: flex;
+        flex-direction: column;
+        flex-direction: wrap;
+    }
+    
 
 .heading {
-    font-size: 100px;
+    font-size: 15vw;
 }
 }

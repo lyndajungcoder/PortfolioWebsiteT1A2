@@ -184,23 +184,6 @@ section  {
 }
 
 /* responsive view */
-@media (max-width: 1535px){
-    header{
-        padding: 15px 3%;
-        transition: .2s;
-    }
-    .icons{
-        padding: 0 3%;
-        transition: .2s;
-    }
-}
-
-@media (max-width: 1460px){
-    section{
-        padding: 0 12%;
-        transition: .2s;
-    }
-}
 
 @media (max-width: 1195px){
     main {

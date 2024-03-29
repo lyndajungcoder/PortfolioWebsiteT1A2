@@ -253,11 +253,11 @@
         height: auto;
     }
     .hero-text, .propertyme-text, .hobby-text h1{
-        font-size: 75px;
         margin: 0 0 30px;
     }
     .hero-text h5{
         margin-bottom: 25px;
+        font-size: 4vw;
     }
 }
 @media (max-width: 1195px){
@@ -265,20 +265,21 @@
         padding: 0 3%;
         transition: .2s;
     }
-    .hero-text{
+    .hero-text h1{
         padding-top: 115px;
+        font-size: 10vw;
     }
     .hero-img{
         text-align: center;
     }
     .hero-img img{
-        width: 560px;
+        width: 600px;
         height: auto;
     }
     .hero{
         height: 100%;
         gap: 1rem;
-        grid-template-columns: 1fr;
+        grid-template-columns:  1fr;
     }
     .icons{
         display: none;
@@ -319,5 +320,21 @@
     .hero-img img{
         width: 50%;
         height: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 20vw;
+    }
+
+    .hero-text p{
+        font-size: 3vw;
+    }
+
+    .propertyme-text p, .hobby-text p{
+        font-size: 3vw;
+    }
+
+    .propertyme-text h5, .hobby-text h5{
+        font-size: 4vw;
     }
 }
