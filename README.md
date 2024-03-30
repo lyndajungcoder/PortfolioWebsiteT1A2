@@ -144,12 +144,18 @@ The wireframe was developed with the intention to ensure each component of the w
 
 -------------
 
-## Kanban
+## Kanban Board
 
-The 
+The progress and the work flow was tracked through the "Projects" in Github.
 
 ## Target Audience
 The website is a portfolio which displays all of my work as a web developer. It needs to engage with future clients and employers and the decision to contact me will be determined by the website.
 
 ## Tech Stack
+
+The website was designed, developed, and deployed using the following tools and languages:
+
+* Figma: Figma was used to create the sitemap and the wireframes
+* Github: For the project management and the verson control 
+
 
