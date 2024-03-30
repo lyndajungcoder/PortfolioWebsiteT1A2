@@ -41,6 +41,8 @@ Additionally, it aims to display all projects with an attractive design. It aims
 
 * All the buttons on the website have been designed to be interactive by using a hover-over effect. 
 
+![alt text](/docs/CleanShot%202024-03-30%20at%2019.55.23.gif)
+
 * When the screen size decreases, the navigation bar will transition into a hamburger menu bar.
 
 * All pages have a side icon that directs the end user to my Github and Linkedin site.
@@ -115,6 +117,7 @@ I have used a mixture of neutral and vibrant colours to add personality into the
 
 ##### Projects - mobile
 ![alt text](/docs/projectsmobile.png)
+
 ![alt text](/docs/projectsmobile3.jpg)
 
 ##### Project 1 - mobile
@@ -134,12 +137,21 @@ The sitemap was developed with the intention to ensure easy navigation and acces
 The wireframe was developed with the intention to ensure each component of the website was simple and easy to navigate. It was also designed with the intention for the layout to be modern with the current trend.
 
 ![alt text](/docs/Website%20Portfolio_Page_1.jpg)
+
 ![alt text](/docs/Website%20Portfolio_Page_2.jpg)
+
 ![alt text](/docs/Website%20Portfolio_Page_3.jpg)
+
 ![alt text](/docs/Website%20Portfolio_Page_4.jpg)
+
 ![alt text](/docs/Website%20Portfolio_Page_5.jpg)
+
 ![alt text](/docs/Website%20Portfolio_Page_6.jpg)
+
+**Mobile responsive design**
+
 ![alt text](/docs/Website%20Portfolio_Page_7.jpg)
+
 ![alt text](/docs/Website%20Portfolio_Page_8.jpg)
 
 -------------
@@ -156,6 +168,10 @@ The website is a portfolio which displays all of my work as a web developer. It 
 The website was designed, developed, and deployed using the following tools and languages:
 
 * Figma: Figma was used to create the sitemap and the wireframes
-* Github: For the project management and the verson control 
-
+* Github: For the project management and the verson control
+* Visual Studio Code: to create the source code for the website in HTML, CSS & Javascript
+* Visual Studio Code: for the Markdown to write the README
+* Netlify: The deployment of the website
+* Adobe: For the editing of images
+* Canva: For the presentation creation
 
